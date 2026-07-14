@@ -19,7 +19,7 @@ A simple English Dictionary web application built using HTML, CSS, and JavaScrip
 
 ## Live Demo
 
-🔗 https://your-vercel-link.vercel.app
+🔗 https://dictionary-app-black-tau.vercel.app/
 
 ## Author
 
