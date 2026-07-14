@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>English Dictionary </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+   <h1 class="heading" >English Dictionary</h1>
+   <input type="text" class="input" id="input" placeholder="Search a Word"> 
+   <p class="info-text" id="info-text">Type a word and press Enter to search</p>
+   <div class="meaning-container" id="meaning-container">
+        <p>Word Title : <span id="title" class="title">
+            ___
+        </span></p> <!--span is an empty div which can be styled separately -->
+        <p>Meaning : <span id="meaning" class="meaning">
+            ___
+        </span></p> 
+        <audio src="" controls id="audio"></audio> <!--The controls attribute in the HTML <audio> tag is a boolean attribute that tells the browser to display a built-in playback interface for the user-->
+
+   </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>

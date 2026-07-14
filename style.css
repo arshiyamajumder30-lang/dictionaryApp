@@ -1,0 +1,39 @@
+body{
+    margin: 0;
+    display: flex; /*property is used to create a Flexbox (Flexible Box) layout. It allows you to align and distribute space among items in a container, even when their size is unknown or dynamic*/
+    min-height: 100vh; /*sets the minimum height of an element. It ensures that the element will not be shorter than the specified value, even if its content is smaller. This can be useful for maintaining a consistent layout and preventing elements from collapsing when they have little or no content.*/
+    justify-content: center; /*property is used in Flexbox and Grid layouts to align items along the main axis (horizontal axis in a row layout or vertical axis in a column layout). It controls how the extra space is distributed between and around the items within the container.*/
+    align-items: center; /*property is used in Flexbox and Grid layouts to align items along the cross axis (vertical axis in a row layout or horizontal axis in a column layout). It controls how the items are aligned within the container, allowing you to position them at the start, center, end, or stretch them to fill the container.*/
+    background-color: salmon ;
+    font-family:'Courier New', Courier, monospace
+}
+.container{
+    background-color: rgba(255, 255, 255, 0.3);
+    padding:30px;
+    border-radius:10px;
+    box-shadow: 0 10px 10px rgba(0,0,0,.3); /*property is used to add shadow effects around an element's frame. It allows you to create a shadow that can be offset, blurred, and colored to enhance the visual appearance of the element. The syntax for the box-shadow property is as follows: box-shadow: [horizontal offset] [vertical offset] [blur radius] [spread radius] [color]; */
+    width:90%;
+    max-width:500px; /*property is used to set the maximum width of an element. It prevents the element from growing wider than the specified value, even if there is more available space. This can be useful for maintaining a consistent layout and preventing elements from becoming too wide on larger screens. The max-width property can take values in various units, such as pixels (px), percentages (%), or viewport units (vw). */
+    margin: 20px;
+text-align: center;
+font-size:20px;
+font-weight:600px ;
+}
+.input{
+    width:300px;
+    height:50px;
+   background-color: rgba(255, 255, 255, 0.6);
+   border-color: rgba(255,255,255,.4);
+   font-size: 18px;
+   padding: 0 45px; /* 0 for upper and lower padding, 45px for left and right padding */
+   border-radius: 7px;
+
+}
+
+.heading{
+    font-size:30px;
+}
+
+.meaning-container{
+ display: none; /*hides the element from view on web pg*/
+}
